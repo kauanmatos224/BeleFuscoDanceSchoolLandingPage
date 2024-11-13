@@ -4,6 +4,7 @@ import Header from "./_components/Header";
 import Hero from "./_components/Hero";
 import React from 'react';
 
+
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
@@ -30,6 +31,7 @@ export default function RootLayout({ children }) {
         <Header/>
         {children}
         <Hero/>
+
       </body>
     </html>
   );
